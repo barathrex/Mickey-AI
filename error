@@ -1,0 +1,113 @@
+17:00:39.620 [main] INFO com.hlife.rider.PolicyBazarApplication - Application Starting...
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-07-16 17:00:40.327  INFO 7992 --- [           main] com.hlife.rider.PolicyBazarApplication   : Starting PolicyBazarApplication using Java 17.0.2 on 01HW2475557 with PID 7992 (C:\Users\tcs_ban1681\Desktop\rider-anytime-portal-trunk\rider-service-policy-bazar\target\classes started by TCS_BAN1681 in C:\Users\tcs_ban1681\Desktop\rider-anytime-portal-trunk\rider-service-policy-bazar)
+2026-07-16 17:00:40.334  INFO 7992 --- [           main] com.hlife.rider.PolicyBazarApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-16 17:00:41.871  INFO 7992 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2026-07-16 17:00:41.884  INFO 7992 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-16 17:00:41.885  INFO 7992 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-07-16 17:00:42.022  INFO 7992 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-16 17:00:42.022  INFO 7992 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1592 ms
+2026-07-16 17:00:42.604  INFO 7992 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2026-07-16 17:00:42.621  INFO 7992 --- [           main] com.hlife.rider.PolicyBazarApplication   : Started PolicyBazarApplication in 2.854 seconds (JVM running for 3.431)
+2026-07-16 17:00:42.627  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : 
+2026-07-16 17:00:42.627  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ==============================================================================================================
+2026-07-16 17:00:42.627  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : USERS | REQUESTS | SUCCESS | FAILURE | TOTAL TPS | TOTAL RPM
+2026-07-16 17:00:42.627  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ==============================================================================================================
+2026-07-16 17:00:51.821  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     1 |       10 |      10 |       0 |      1.10 |      66.29
+2026-07-16 17:00:51.822  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=1 Status=200 Count=10
+2026-07-16 17:01:11.739  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     2 |       20 |      20 |       0 |      1.12 |      67.02
+2026-07-16 17:01:11.739  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=2 Status=200 Count=20
+2026-07-16 17:01:33.977  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     3 |       30 |      30 |       0 |      1.48 |      89.06
+2026-07-16 17:01:33.977  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=3 Status=200 Count=30
+2026-07-16 17:01:57.836  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     4 |       40 |      40 |       0 |      1.83 |     109.90
+2026-07-16 17:01:57.836  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=4 Status=200 Count=40
+2026-07-16 17:02:23.736  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     5 |       50 |      50 |       0 |      2.09 |     125.63
+2026-07-16 17:02:23.737  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=5 Status=200 Count=50
+2026-07-16 17:02:49.304  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     6 |       60 |      60 |       0 |      2.55 |     152.92
+2026-07-16 17:02:49.304  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=6 Status=200 Count=60
+2026-07-16 17:03:18.244  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     7 |       70 |      70 |       0 |      2.60 |     156.01
+2026-07-16 17:03:18.244  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=7 Status=200 Count=70
+2026-07-16 17:03:49.602  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     8 |       80 |      80 |       0 |      2.73 |     163.56
+2026-07-16 17:03:49.603  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=8 Status=200 Count=80
+2026-07-16 17:04:21.792  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :     9 |       90 |      90 |       0 |      2.98 |     178.97
+2026-07-16 17:04:21.792  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=9 Status=200 Count=90
+2026-07-16 17:04:54.409  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    10 |      100 |     100 |       0 |      3.27 |     196.14
+2026-07-16 17:04:54.409  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=10 Status=200 Count=100
+2026-07-16 17:05:30.905  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    11 |      110 |     110 |       0 |      3.19 |     191.40
+2026-07-16 17:05:30.906  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=11 Status=200 Count=110
+2026-07-16 17:06:10.957  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    12 |      120 |     120 |       0 |      3.15 |     189.26
+2026-07-16 17:06:10.957  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=12 Status=200 Count=120
+2026-07-16 17:06:53.457  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    13 |      130 |     130 |       0 |      3.21 |     192.68
+2026-07-16 17:06:53.457  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=13 Status=200 Count=130
+2026-07-16 17:07:40.224  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    14 |      140 |     140 |       0 |      3.13 |     187.71
+2026-07-16 17:07:40.224  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=14 Status=200 Count=140
+2026-07-16 17:08:29.849  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    15 |      150 |     150 |       0 |      3.15 |     189.01
+2026-07-16 17:08:29.849  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=15 Status=200 Count=150
+2026-07-16 17:09:23.834  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    16 |      160 |     160 |       0 |      3.08 |     184.71
+2026-07-16 17:09:23.834  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=16 Status=200 Count=160
+2026-07-16 17:10:16.695  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    17 |      170 |     170 |       0 |      3.34 |     200.61
+2026-07-16 17:10:16.695  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=17 Status=200 Count=170
+2026-07-16 17:11:11.079  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    18 |      180 |     180 |       0 |      3.44 |     206.20
+2026-07-16 17:11:11.079  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=18 Status=200 Count=180
+2026-07-16 17:12:09.937  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    19 |      190 |     190 |       0 |      3.34 |     200.55
+2026-07-16 17:12:09.937  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=19 Status=200 Count=190
+2026-07-16 17:13:13.039  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    20 |      200 |     200 |       0 |      3.27 |     196.43
+2026-07-16 17:13:13.039  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=20 Status=200 Count=200
+2026-07-16 17:14:19.465  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    21 |      210 |     210 |       0 |      3.26 |     195.63
+2026-07-16 17:14:19.467  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=21 Status=200 Count=210
+2026-07-16 17:15:36.667  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    22 |      220 |     220 |       0 |      2.93 |     175.57
+2026-07-16 17:15:36.667  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=22 Status=200 Count=220
+2026-07-16 17:16:49.618  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    23 |      230 |     230 |       0 |      3.24 |     194.55
+2026-07-16 17:16:49.618  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=23 Status=200 Count=230
+2026-07-16 17:18:01.811  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    24 |      240 |     240 |       0 |      3.42 |     205.20
+2026-07-16 17:18:01.811  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=24 Status=200 Count=240
+2026-07-16 17:19:13.322  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    25 |      250 |     250 |       0 |      3.60 |     215.82
+2026-07-16 17:19:13.322  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=25 Status=200 Count=250
+2026-07-16 17:20:29.268  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    26 |      260 |     260 |       0 |      3.52 |     211.02
+2026-07-16 17:20:29.268  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=26 Status=200 Count=260
+2026-07-16 17:21:47.987  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    27 |      270 |     270 |       0 |      3.52 |     211.18
+2026-07-16 17:21:47.989  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=27 Status=200 Count=270
+2026-07-16 17:23:09.713  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    28 |      280 |     280 |       0 |      3.51 |     210.77
+2026-07-16 17:23:09.714  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=28 Status=200 Count=280
+2026-07-16 17:24:34.608  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    29 |      290 |     290 |       0 |      3.50 |     209.94
+2026-07-16 17:24:34.608  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=29 Status=200 Count=290
+2026-07-16 17:26:02.597  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    30 |      300 |     300 |       0 |      3.49 |     209.35
+2026-07-16 17:26:02.597  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=30 Status=200 Count=300
+2026-07-16 17:27:28.985  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    31 |      310 |     310 |       0 |      3.67 |     220.47
+2026-07-16 17:27:28.985  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=31 Status=200 Count=310
+2026-07-16 17:28:53.308  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    32 |      320 |     320 |       0 |      3.89 |     233.25
+2026-07-16 17:28:53.309  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=32 Status=200 Count=320
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    33 |      330 |     327 |       3 |      3.85 |     230.74
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=33 Status=500 Count=3
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=33 Status=200 Count=327
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ----------------------------------------------------------------------------------------------
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : POSSIBLE THROTTLING DETECTED
+2026-07-16 17:30:21.133  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users    : 33
+2026-07-16 17:30:21.134  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Requests : 330
+2026-07-16 17:30:21.134  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Success  : 327
+2026-07-16 17:30:21.134  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Failure  : 3
+2026-07-16 17:30:21.134  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ----------------------------------------------------------------------------------------------
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    34 |      340 |     335 |       5 |      3.57 |     214.13
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=34 Status=500 Count=5
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=34 Status=200 Count=335
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ----------------------------------------------------------------------------------------------
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : POSSIBLE THROTTLING DETECTED
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users    : 34
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Requests : 340
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Success  : 335
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Failure  : 5
+2026-07-16 17:31:58.420  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : ----------------------------------------------------------------------------------------------
+2026-07-16 17:33:38.643  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    35 |      350 |     350 |       0 |      3.56 |     213.81
+2026-07-16 17:33:38.643  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=35 Status=200 Count=350
+2026-07-16 17:35:26.320  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    36 |      360 |     360 |       0 |      3.41 |     204.41
+2026-07-16 17:35:26.322  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=36 Status=200 Count=360
+2026-07-16 17:37:12.578  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       :    37 |      370 |     370 |       0 |      3.55 |     212.97
+2026-07-16 17:37:12.578  INFO 7992 --- [           main] com.hlife.rider.PostLoadTestRunner       : Users=37 Status=200 Count=370
